@@ -11,10 +11,10 @@
 </head>
 <body>
 	<header id="main_navigation" class="clearfix">
-		<a href="#" class="name">Navpreet Chhina</a>
+		<%= link_to "Navpreet Chhina", root_path, class: "name" %>
+		
 		<nav>
 			<%= link_to "Articles", posts_path %>
-			<a href="articles.html">Articles</a>
 			<a href="article_show.html">Projects</a>
 			<a href="contact.html">Contact</a>
 
@@ -23,6 +23,19 @@
 	</header>
 
 <%= yield %>
+<footer id="main_footer">
+	<p class="copyright">&copy; 2016 Navpreet Chhina</p>
+	<nav>
+		<a href="http://twitter.com"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+		<a href="http://dribbble.com"><i class="fa fa-dribbble" aria-hidden="true"></i></a>
+		<a href="http://github.com/Navpreet76"><i class="fa fa-github" aria-hidden="true"></i></a>
+	</nav>
+
+
+
+
+	
+</footer>
 
 </body>
 </html>
