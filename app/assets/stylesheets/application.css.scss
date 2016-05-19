@@ -8,6 +8,7 @@ $border: #E9E9E9;
 
 *{
 	box-sizing: border-box;
+	background-color: #FFFFFF;
 }
 
 body{
@@ -45,10 +46,14 @@ body{
 
 h1, h2, h3, h4, h5, h6, p, ul li{
 	color: $dark;
+	&:hover{
+				color: $highlight;
+			}
 }
 
 h1{
 	font-size: 2.5rem;
+
 }
 
 h2{
@@ -85,13 +90,13 @@ hr{
 	}
 #main_navigation{
 	padding: 2.5em 5%;
-	border-bottom: 1px solid $border;
+	border-bottom: 30px solid #7FFFD4;
 	.name{
 	font-weight: 700;
 	font-size: .8em;
 	letter-spacing: 4px;
 	text-transform: uppercase;
-	border: 2px solid $border;
+	border: 2px solid #7FFFD4;
 	padding: 1rem;
 	text-decoration: none;
 	color: $dark;
@@ -105,7 +110,11 @@ hr{
 	  text-decoration: none;
 	  margin: 0 1rem;
 	  font-size: 1rem;
-	}
+	
+		&:hover{
+				color: $highlight;
+			}
+		}
 }
 }
 
@@ -118,7 +127,12 @@ hr{
 	text-transform: uppercase;
 }
 
-
+#rapper{
+	border: 1px solid black;
+	padding: 1em;
+	background-color: #7FFFD4;
+	border-radius: 10px;
+}
 
 
 
@@ -126,7 +140,7 @@ hr{
 
 #main_footer{
 	padding: 2.5em 5%;
-	border-top: 1px solid $border;
+	border-top: 10px solid #7FFFD4;
 	.copyright{
 		float: left;
 		font-size: .9em;

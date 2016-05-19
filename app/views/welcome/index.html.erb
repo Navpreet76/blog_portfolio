@@ -4,43 +4,31 @@
 		<hr>
 		<p>I am a full stack developer from Ventura, California.</p>
 		<p>I have recently graduated from Codingdojo's Los Angeles Campus after completing the coding bootcamp curriculum of 3 full stacks. </p>
-		<p>i have spent the last four months completely immersed in web programming and numerous technologies related to end to end application development. Some of these technologies are</p>
-		<ul>
-			<h4>Web fundamentals</h4>
-			<li>HTML</li>
-			<li>CSS</li>
-			<li>Git</li>
-			<li>Jquery</li>
-			<li>Responsive Web design</li>
-		</ul>
-		<ul>
-			<h4>LAMP Stack</h4>
-			<li>MySQL</li>
-			<li>PHP</li>
-			<li>OOP PHP</li>
-			<li>PHP MVC</li>
-			<li>Apache Web Server</li>
-			<li>Ajax</li>
-
-		</ul>
-		<ul>
-			<h4>Ruby on rails Stack</h4>
-			<li>Ruby</li>
-			<li>Rails</li>
-			<li>Test Driven Development </li>
-			<li>Angular Rails</li>
-			<li>Ember</li>
-		</ul>
-		<ul>
-			<h4>Mean Stack</h4>
-			<li>Javascript</li>
-			<li>Node.JS</li>
-			<li>Express.JS</li>
-			<li>MongoDB</li>
-			<li>AngularJS</li>
-
-		</ul>
-		<p> <a href="#">Curriculum</a> In Depth</p>
+		
+		
+		<h6>Web fundamentals</h6>
+		
+		<p>HTML,CSS,Git, Jquery,Responsive Web design.</p>
+		
+		<hr>
+		
+		<h6>LAMP Stack</h6>
+		
+			<p>MySQL,PHP OOP Programming,PHP using Codeigniter framework,Apache Web Server,Ajax.</p>
+		
+		<hr>
+		
+		<h6>Ruby on rails Stack</h6>
+	
+			<p>Ruby,Rails,Test Driven Development, Error Driven Development,Angular Rails,Ember.</p>
+		
+		<hr>
+			
+		<h6>Mean Stack</h6>
+		
+			<p>Full Javascript stack with Node.JS as the server,Express.JS handling the framework duties.MongoDB serves as the database alongside AngularJS providing the front and back end support.<p>
+	
+		
 	</div>
 	<div class="col-2 homepage_content">
 		<h2><a href="posts">Stuff Ive written</a></h2>
@@ -56,7 +44,7 @@
 
 	</div>
 	<div class="col-3 homepage_content">
-		<h2>Stuff Ive Built</h2>
+		<h2><a href="projects">Stuff Ive Built</a></h2>
 		<hr>
 		<% @projects.each do |project| %>
 			<h3><a href="#"><%= link_to project.title, project %> </a></h3>
