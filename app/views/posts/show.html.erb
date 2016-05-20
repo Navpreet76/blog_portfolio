@@ -10,7 +10,7 @@
 
 
 <div id="content">
-		<%= @post.content %>
+		<%= markdown @post.content %>
 
 </div>
 	<% if user_signed_in? %>
